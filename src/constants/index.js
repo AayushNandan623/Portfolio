@@ -44,7 +44,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: " ABCD ",
-  phoneNo: "+91 111111111 ",
+  address: " Sector-66, Chandigarh ",
+  phoneNo: "+91 8234-9887 ",
   email: "aayush@mail.com",
 };
