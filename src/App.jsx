@@ -1,5 +1,7 @@
 import Navbar from "./components/Navbar";
-
+import Hero from "./components/Hero";
+import TechStack from "./components/TechStack";
+import Projects from "./components/Projects";
 const App = () => {
   return (
     <div className="overflow-x-hidden text-stone-300 antialiased">
@@ -10,7 +12,10 @@ const App = () => {
         </div>
       </div>
       <div className="container mx-auto px-8 ">
-        <Navbar/>
+        <Navbar />
+        <Hero />
+        <TechStack />
+        <Projects/>
       </div>
     </div>
   );
