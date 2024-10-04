@@ -2,6 +2,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import TechStack from "./components/TechStack";
 import Projects from "./components/Projects";
+import Experience from "./components/Experience";
+import Contacts from "./components/Contacts";
 const App = () => {
   return (
     <div className="overflow-x-hidden text-stone-300 antialiased">
@@ -15,7 +17,9 @@ const App = () => {
         <Navbar />
         <Hero />
         <TechStack />
-        <Projects/>
+        <Projects />
+        {/* <Experience /> */}
+        <Contacts />
       </div>
     </div>
   );
