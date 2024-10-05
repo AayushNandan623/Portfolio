@@ -36,7 +36,7 @@ To build the project for production, use:
   ```
 
 ## Deployment
-The project is deployed on Vercel. You can view the live demo [here](https://portfolio-80cxpw0ov-aayush-nandans-projects.vercel.app).
+The project is deployed on Vercel. You can view the live demo [here](https://portfolio-git-main-aayush-nandans-projects.vercel.app/).
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
