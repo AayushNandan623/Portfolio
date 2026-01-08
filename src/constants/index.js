@@ -20,31 +20,53 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Git Query — AI Knowledge Assistant",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A Retrieval-Augmented Generation (RAG) based system that indexes GitHub repositories using vector embeddings and enables semantic search with an AI-powered chat interface for code-aware insights.",
+    technologies: [
+      "React",
+      "Node.js",
+      "MongoDB Vector Search",
+      "Google Gemini",
+      "LangChain",
+      "Tailwind CSS",
+    ],
   },
   {
-    title: "Task Management App",
+    title: "ChatVerse — Real-Time Chat Application",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A horizontally scalable real-time chat application built using Socket.IO and Redis Pub/Sub, with Apache Kafka for durable message streaming and PostgreSQL for persistent storage.",
+    technologies: [
+      "Next.js",
+      "Node.js",
+      "Socket.IO",
+      "Redis Pub/Sub",
+      "Apache Kafka",
+      "PostgreSQL",
+      "Prisma ORM",
+    ],
   },
   {
-    title: "Portfolio Website",
+    title: "Digital Banking Application",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Framer"],
+      "A secure digital banking system implementing ACID-compliant transactions with PostgreSQL, featuring JWT-based authentication, Zod validation, and robust API security.",
+    technologies: [
+      "React",
+      "Node.js",
+      "PostgreSQL",
+      "JWT",
+      "Zod",
+      "Bcrypt",
+    ],
   },
-  
 ];
 
 export const CONTACT = {
-  address: " Sector-66, Chandigarh ",
-  phoneNo: "+91 8234-9887 ",
-  email: "aayush@mail.com",
+  address: "Chandigarh University, Chandigarh",
+  phoneNo: "+91 62995 97973",
+  email: "aayushnandan623@gmail.com",
 };
+
